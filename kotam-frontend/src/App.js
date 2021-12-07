@@ -4,13 +4,14 @@ import axios from 'axios';
 import {Route, Routes} from "react-router-dom";
 
 
-//Import pages
-
+//Import pages & components
+import Navbar from "./components/Navbar/Navbar"
 import AboutPage from "./pages/About/index"
 
 function App() {
   return (
     <div>
+      <Navbar/>
       <Routes>
       <Route path= "/about" element={<AboutPage/>}/>
       </Routes>
