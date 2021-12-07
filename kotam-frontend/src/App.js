@@ -1,9 +1,19 @@
 import './App.css';
+import {useState, useEffect} from 'react';
+import axios from 'axios';
+import {Route, Routes} from "react-router-dom";
+
+
+//Import pages
+
+import AboutPage from "./pages/About/index"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello again</h1>
+    <div>
+      <Routes>
+      <Route path= "/about" element={<AboutPage/>}/>
+      </Routes>
     </div>
   );
 }
