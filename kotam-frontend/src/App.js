@@ -7,6 +7,7 @@ import {Route, Routes} from "react-router-dom";
 //Import pages & components
 import Navbar from "./components/Navbar/Navbar"
 import AboutPage from "./pages/About/index"
+import SignUp from './pages/SignUp';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Navbar/>
       <Routes>
       <Route path= "/about" element={<AboutPage/>}/>
+      </Routes>
+      <Routes>
+      <Route path= "/signup" element={<SignUp/>}/>
       </Routes>
     </div>
   );

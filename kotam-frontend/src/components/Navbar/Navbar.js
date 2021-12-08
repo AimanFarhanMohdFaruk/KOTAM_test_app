@@ -9,7 +9,7 @@ const Navbar = () => {
     <div class="sidebar">
         <h2 >Kotam <img src={tennis} class="logo" alt="tennisBall"/></h2>
         <a href="/about" class="active">About</a>
-        <a href="#signUp"  >Sign Up</a>
+        <a href="signup"  >Sign Up</a>
         <a href="#standings">Standings</a>
     </div>
     );
