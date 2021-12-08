@@ -1,7 +1,15 @@
+@import url('https://css.gg/tennis.css');
+
+.logo {
+  max-width: 20px;
+  margin-left: 0.5rem;
+}
+
+
 .sidebar {
     margin: 0;
-    padding: 0;
-    width: 200px;
+    padding: 1rem 0 0 0;
+    width: 12rem;
     background-color: #05294b;
     color: white;
     position: fixed;
@@ -19,6 +27,8 @@
 
   h2 {
       margin-left: 1rem;
+      display: flex;
+      align-items: center;
   }
   
   /* Active/current link */
@@ -35,8 +45,8 @@
   
   /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
   div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
+    margin-left: 12rem;
+    padding: 0.5rem 16px;
     height: 1000px;
   }
   
