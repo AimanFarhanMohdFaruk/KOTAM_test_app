@@ -4,7 +4,7 @@ import "./style.css"
 
 const AboutPage = () => {
     return (
-        <div>
+        <div class="content">
             <h1 class="welcomeBanner">Welcome to Kotam League!</h1>
         </div>
     );
