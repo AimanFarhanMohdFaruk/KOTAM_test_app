@@ -1,9 +1,12 @@
 import React from 'react';
-import "./style.css"
+
 
 const SignUp = () => {
     return (
-        <div class="content">Sign Up Here</div>
+        <div class="content">
+            <div className=""></div>
+            <h1>Sign Up</h1>
+        </div>
     )
 }
 
