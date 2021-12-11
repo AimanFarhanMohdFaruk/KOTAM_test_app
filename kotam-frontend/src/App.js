@@ -3,6 +3,7 @@ import './App.css';
 import {useState, useEffect} from 'react';
 import axios from 'axios';
 import {Route, Routes} from "react-router-dom";
+import React from 'react'; // included by Irfan to avoid 'JSX Scope' error
 
 
 //Import pages & components
