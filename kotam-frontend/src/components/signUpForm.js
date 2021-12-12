@@ -2,7 +2,6 @@ import React from 'react';
 
 const SignUpForm = () => {
     return (
-        <div class='content' className='d-flex justify-content-center align-items-center'>
         <form style={{marginTop: "1rem"}}>
                 <h3>Register</h3>
 
@@ -30,8 +29,6 @@ const SignUpForm = () => {
                     Already registered <a href="#">sign in?</a>
                 </p>
             </form>            
-        </div>
-
 
     )
 }

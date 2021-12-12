@@ -12,7 +12,7 @@ import SignUp from './pages/SignUp';
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar/>
       <Routes>
       <Route path= "/about" element={<AboutPage/>}/>
@@ -20,7 +20,7 @@ function App() {
       <Routes>
       <Route path= "/signup" element={<SignUp/>}/>
       </Routes>
-    </div>
+    </>
   );
 }
 
