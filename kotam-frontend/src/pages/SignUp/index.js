@@ -1,9 +1,11 @@
 import React from 'react';
-import "./style.css"
+import SignUpForm from '../../components/signUpForm';
 
 const SignUp = () => {
     return (
-        <div class="content">Sign Up Here</div>
+        <div class="content" style={{display:"flex", justifyContent:"center"}}>
+            <SignUpForm/>
+        </div>
     )
 }
 
