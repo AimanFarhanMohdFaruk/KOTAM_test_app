@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory } from "react-router-dom";
+import axios from 'axios';
 
 
 const SignUpForm = () => {
@@ -17,6 +18,10 @@ const SignUpForm = () => {
             ...user,
             [name]: value
         })
+    }
+
+    const register = () => {
+        const { name, emal, password } = user;
     }
 
     return (
@@ -46,12 +51,12 @@ const SignUpForm = () => {
                         <input type="password" className="form-control" value={user.reEnterPassword} placeholder="*****" name="reEnterPassword" />
                     </div>
 
-                    <button type="submit" className="btn btn-primary btn-block" style={{marginTop:"1rem"}}>Register</button>
+                    <button type="submit" className="btn btn-primary btn-block" style={{marginTop:"1rem"}} onClick={register}>Register</button>
                     <p className="forgot-password text-right" style={{marginTop:"0.5rem"}}>
                         Already registered <a href="#">sign in?</a>
                     </p>                    
                 </div>
-            </form>            
+            </form>
 
     )
 }
